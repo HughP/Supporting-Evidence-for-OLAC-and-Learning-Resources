@@ -1,6 +1,5 @@
 ==Coverage==
-<dc:coverage xsi:type="lrmi:typicalAgeRange">Mars (Planet)</dc:coverage>
-<dc:coverage xsi:type="lrmi:timeRequired">duration:</dc:coverage>
+<dc:coverage xsi:type="lrmi:timeRequired">Requires ISO 8601 Duration format.</dc:coverage>
 
 ==Type==
 <dc:type xsi:type="lrmi:learningResourceType">Vocabulary: activity plan, assessment, assessment item, educator curriculum guide, lesson plan, physical learning resource, recorded lesson, supporting document, textbook, unit plan</dc:type>
