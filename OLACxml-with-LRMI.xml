@@ -1,0 +1,33 @@
+==Coverage==
+<dc:coverage xsi:type="lrmi:typicalAgeRange">Mars (Planet)</dc:coverage>
+<dc:coverage xsi:type="lrmi:timeRequired">duration:</dc:coverage>
+
+==Type==
+<dc:type xsi:type="lrmi:learningResourceType">Vocabulary: activity plan, assessment, assessment item, educator curriculum guide, lesson plan, physical learning resource, recorded lesson, supporting document, textbook, unit plan</dc:type>
+
+==Format ==
+<dc:format xsi:type="lrmi:educationalUse">Vocabulary: assessment, instruction, professional support</dc:format>
+<dc:format xsi:type="dcterms:extent" xsi:type="lrmi:timeRequired">duration</dc:format>
+
+==Subject==
+<dc:subject xsi:type="lrmi:assesses"></dc:subject>
+<dc:subject xsi:type="lrmi:teaches"></dc:subject>
+<dc:subject xsi:type="lrmi:educationalSubject"></dc:subject>
+<dc:subject xsi:type="lrmi:prerequisite"></dc:subject>
+
+==Relation==
+<dc:relation xsi:type="dcterms:requires" xsi:type="lrmi:prerequisite"></dc:relation>
+<dcterms:requires xsi:type="lrmi:prerequisite"></dcterms:requires>
+<dc:relation xsi:type="lrmi:educationalFramework" "lrmi:targetDescription" "targetDescription:-x-" "lrmi:targetName" "targetName: -x-" "lrmi:targetURL" "targetURL: -x-"></dc:relation>
+<dc:relation xsi:type="dcterms:ConformsTo" "lrmi:educationalAlignment"></dc:relation>
+<dcterms:References xsi:type="dcterms:URI" "lrmi:targetUrl"></dcterms:References>
+
+==Audience==
+<dcterms:Audience xsi:type="lrmi:educationalRole">Vocabulary: Teacher, Student, Professional, Peer Tutor, Parent, Mentor, General Public, Administrator</dcterms:Audience>
+<dcterms:Audience xsi:type="lrmi:typicalAgeRange"></dcterms:Audience>
+<dcterms:Audience xsi:type="dcterms:EducationLevel" xsi:type="lrmi:educationLevel"></dcterms:Audience>
+<dcterms:EducationLevel xsi:type="lrmi:educationLevel"></dcterms:EducationLevel>
+<dcterms:EducationLevel xsi:type="lrmi:complexityLevel"></dcterms:EducationLevel>
+<dcterms:EducationLevel xsi:type="lrmi:readingLevel"></dcterms:EducationLevel>
+<dcterms:InstructionalMethod xsi:type="lrmi:interactivityType">Vocabulary: active, expositive, mixed</dcterms:InstructionalMethod>
+

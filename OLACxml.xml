@@ -1,0 +1,228 @@
+== Title==
+<dc:title>Taurarii Rua Araara 6 2012</dc:title>
+<dc:title xsi:type="dcterms:alternative">Taurarii Rua Araara 6 2012</dc:title>
+
+==Agents and Roles==
+<dc:creator xsi:type="olac:role" olac:code="speaker">Sally Akevai Nicholas</dc:creator>
+<dc:contributor xsi:type="olac:role" olac:code="compiler">Sally Akevai Nicholas</dc:contributor>
+<dc:contributor xsi:type="olac:role" olac:code="speaker">Sally Akevai Nicholas</dc:contributor>
+<dc:contributor xsi:type="olac:role" olac:code="compiler">Gardner, Richard</dc:contributor>
+<dc:contributor xsi:type="olac:role" olac:code="annotator">Anderson, Judi Lynn</dc:contributor>
+<dc:publisher></dc:publisher>
+!!<dc:contributor xsi:type="marcrel:role" marcrel:code="tch">USES MARC</dc:contributor>
+
+==Rights and Access==
+<dc:rights>Copyright, Moral Rights, Neighboring Rights, Privacy Rights, Right of Publicity (https://www.law.cornell.edu/wex/publicity)</dc:rights>
+<dc:rights xsi:type="accessRights">Collection Access description</dc:rights>
+<dcterms:accessRights>Collection Access description</dcterms:accessRights>
+<dc:rights xsi:type="license">license statement</dc:rights>
+<dcterms:license>license statement</dcterms:license>
+
+==Description==
+<dc:description>This ought to minimally follow Sullivant 2020</dc:description>
+<dc:description xsi:type="dcterms:abstract">Abstract or Summary</dc:description>
+<dcterms:abstract>Abstract Summary</dcterms:abstract>
+<dc:description xsi:type="dcterms:tableOfContents"></dcterms:tableOfContents>
+<dcterms:tableOfContents ></dcterms:tableOfContents>
+
+==Coverage==
+<dc:coverage>United States durring the civilwar</dc:coverage>
+
+<dcterms: spatial>Mars (Planet)</dcterms: spatial>
+<dcterms:temporal>19th century</dcterms:temporal>
+<dc:coverage xsi:type="dcterms:spatial">Mars (Planet)</dc:coverage>
+<dc:coverage xsi:type="dcterms:temporal">19th century</dc:coverage>
+
+<dc:coverage xsi:type="dcterms:ISO3166">CK</dc:coverage>
+<dc:coverage xsi:type="dcterms:Box">northlimit=-18.826; southlimit=-21.944; westlimit=-159.825; eastlimit=-157.312</dc:coverage>
+<dc:coverage xsi:type="dcterms:Point">east=v1; north=v2; elevation=v3; units=v4; zunits=v5; projection=v6; name=v7</dc:coverage>
+<dc:coverage xsi:type="dcterms:TGN">Guadalcanal (island)</dc:coverage>
+<dc:coverage xsi:type="dcterms:W3CDTF">2001-09-11</dc:coverage>
+<dc:coverage xsi:type="dcterms:Period">start=1900; end=2006;</dc:coverage>
+
+<dcterms:spatial xsi:type="dcterms:ISO3166">CK</dcterms:spatial>
+<dcterms:spatial xsi:type="dcterms:Box">northlimit=-18.826; southlimit=-21.944; westlimit=-159.825; eastlimit=-157.312</dcterms:spatial>
+<dcterms:spatial xsi:type="dcterms:Point">east=v1; north=v2; elevation=v3; units=v4; zunits=v5; projection=v6; name=v7</dcterms:spatial>
+<dcterms:spatial xsi:type="dcterms:TGN">Guadalcanal (island)</dcterms:spatial>
+<dcterms:temporal xsi:type="dcterms:Period">start=1900; end=2006;</dcterms:temporal>
+<dcterms:temporal xsi:type="dcterms:W3CDTF">2001-09-11</dcterms:temporal>
+
+
+==Date==
+<dc:date>2012-11-11</dc:date>
+<dc:date xsi:type="dcterms:W3CDTF">2012-11-11</dc:date>
+<dc:date xsi:type="dcterms:created">2012-11-11</dc:date>
+<dcterms:created xsi:type="dcterms:W3CDTF">2012-11-11</dcterms:created>
+<dcterms:created xsi:type="dcterms:Period">start=1962; end=2006;</dcterms:created>
+<dc:date xsi:type="dcterms:valid">2012-11-11</dc:date>
+<dcterms:valid xsi:type="dcterms:W3CDTF">2012-11-11</dcterms:created>
+<dcterms:valid xsi:type="dcterms:Period">start=1962; end=2006;</dcterms:created>
+<dc:date xsi:type="dcterms:available">2012-11-11</dc:date>
+<dcterms:available xsi:type="dcterms:W3CDTF">2012-11-11</dcterms:created>
+<dcterms:available xsi:type="dcterms:Period">start=1962; end=2006;</dcterms:created>
+<dc:date xsi:type="dcterms:issued">2012-11-11</dc:date>
+<dcterms:issued xsi:type="dcterms:W3CDTF">2012-11-11</dcterms:created>
+<dcterms:issued xsi:type="dcterms:Period">start=1962; end=2006;</dcterms:created>
+<dc:date xsi:type="dcterms:modified">2012-11-11</dc:date>
+<dcterms:modified xsi:type="dcterms:W3CDTF">2012-11-11</dcterms:created>
+<dcterms:modified xsi:type="dcterms:Period">start=1962; end=2006;</dcterms:created>
+<dc:date xsi:type="dcterms:dateSubmitted">2012-11-11</dc:date>
+<dcterms:dateSubmitted xsi:type="dcterms:W3CDTF">2012-11-11</dcterms:created>
+<dcterms:dateSubmitted xsi:type="dcterms:Period">start=1962; end=2006;</dcterms:created>
+<dc:date xsi:type="dcterms:dateCopyrighted">2012-11-11</dc:date>
+<dcterms:dateCopyrighted xsi:type="dcterms:W3CDTF">2012-11-11</dcterms:created>
+<dcterms:dateCopyrighted xsi:type="dcterms:Period">start=1962; end=2006;</dcterms:created>
+ <dc:date xsi:type="dcterms:dateAccepted">2012-11-11</dc:date>
+<dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2012-11-11</dcterms:created>
+<dcterms:dateAccepted xsi:type="dcterms:Period">start=1962; end=2006;</dcterms:created>
+
+==Type==
+<dc:type>Sound</dc:type>
+<dc:type xsi:type="dcterms:DCMIType">Sound</dc:type>
+<dc:type xsi:type="dcterms:DCMIType">Collection</dc:type>
+<dc:type xsi:type="dcterms:DCMIType">Image</dc:type>
+<dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+<dc:type xsi:type="dcterms:DCMIType">PhysicalObject</dc:type>
+<dc:type xsi:type="dcterms:DCMIType">Service</dc:type>
+<dc:type xsi:type="dcterms:DCMIType">Event</dc:type>
+<dc:type xsi:type="dcterms:DCMIType">Dataset</dc:type>
+<dc:type xsi:type="dcterms:DCMIType">InteractiveResource</dc:type>
+<dc:type xsi:type="dcterms:DCMIType">MovingImage</dc:type>
+<dc:type xsi:type="dcterms:DCMIType">Software</dc:type>
+<dc:type xsi:type="dcterms:DCMIType">StillImage</dc:type>
+<dc:type xsi:type="olac:linguistic-type" olac:code="primary_text"/>
+<dc:type xsi:type="olac:linguistic-type" olac:code="lexicon"/>
+<dc:type xsi:type="olac:linguistic-type" olac:code="language_description"/>
+<dc:type xsi:type="olac:discourse-type" olac:code="primary_text"/>
+<dc:type xsi:type="olac:discourse-type" olac:code="dialogue" />
+<dc:type xsi:type="olac:discourse-type" olac:code="drama" />
+<dc:type xsi:type="olac:discourse-type" olac:code="formulaic" />
+<dc:type xsi:type="olac:discourse-type" olac:code="ludic" />
+<dc:type xsi:type="olac:discourse-type" olac:code="oratory" />
+<dc:type xsi:type="olac:discourse-type" olac:code="narrative" />
+<dc:type xsi:type="olac:discourse-type" olac:code="procedural" />
+<dc:type xsi:type="olac:discourse-type" olac:code="report" />
+<dc:type xsi:type="olac:discourse-type" olac:code="singing" />
+<dc:type xsi:type="olac:discourse-type" olac:code="unintelligible_speech" />
+
+==Format ==
+<dc:format>Burnt</dc:format>
+<dc:format xsi:type="dcterms:extent">33 pages</dc:format>
+<dcterms:extent></dcterms:extent>
+<dcterms:medium></dcterms:medium>
+<dc:format xsi:type="dcterms:medium"></dc:format>
+<dcterms:medium xsi:type="dcterms:IMT">(do not use audio/wav... it is not valid!)</dcterms:medium>
+
+==Subject==
+<dc:subject></dc:subject>
+
+<dc:subject xsi:type="olac:linguistic-field" >applied_linguistics</dc:subject >
+<dc:subject xsi:type="olac:linguistic-field" olac:code="applied_linguistics"/>
+
+<dc:subject xsi:type="olac:linguistic-field" olac:code="cognitive_science"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="computational_linguistics"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="discourse_analysis"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="forensic_linguistics"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="general_linguistics"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="history_of_linguistics"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="language_acquisition"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="lexicography"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="linguistics_and_literature"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="linguistic_theories"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="mathematical_linguistics"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="morphology"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="neurolinguistics"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="philosophy_of_language"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="phonetics"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="phonology"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="pragmatics"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="psycholinguistics"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="semantics"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="language_documentation"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="anthropological_linguistics"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="writing_systems"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="typology"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="translating_and_interpreting"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="text_and_corpus_linguistics"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="syntax"/>
+<dc:subject xsi:type="olac:linguistic-field" olac:code="sociolinguistics"/>
+<dc:subject xsi:type="olac:language" olac:code="rar"/>
+<dc:subject xsi:type="dcterms:DDC"></dc:subject>
+<dc:subject xsi:type="dcterms:LCC"></dc:subject>
+<dc:subject xsi:type="dcterms:LCSH"></dc:subject>
+<dc:subject xsi:type="dcterms:MESH"></dc:subject>
+<dc:subject xsi:type="dcterms:NLM"></dc:subject>
+<dc:subject xsi:type="dcterms:TGN"></dc:subject>
+<dc:subject xsi:type="dcterms:UDC"></dc:subject>
+
+==Language==
+<dc:language>Quenya</dc:language>
+<dc:language xsi:type="dcterms:ISO639-2"></dc:language>
+<dc:language xsi:type="dcterms:ISO639-3"></dc:language>
+<dc:language xsi:type="dcterms:RFC1766"></dc:language>
+<dc:language xsi:type="dcterms:RFC3066"></dc:language>
+<dc:language xsi:type="dcterms:RFC4646"></dc:language>
+<dc:language xsi:type="dcterms:RFC5646"></dc:language>
+<dc:language xsi:type="olac:language" olac:code="rar"/>
+ 
+==Identifier==
+<dc:identifier>Series: A, Box 7</dc:identifier>
+<dc:identifier xsi:type="dcterms:URI">http://catalog.paradisec.org.au/repository/SN1/MmTTPpTT20121111E06</dc:identifier>
+<dc:identifier xsi:type="dcterms:bibliographicCitation">Doe, John. 1904. some great manuscript. German National Library</dc:identifier>
+<dcterms:bibliographicCitation>Sally Akevai Nicholas (collector), Sally Akevai Nicholas (speaker), Tuakana Taurarii (speaker), Taurereau Taurarii (speaker), 2012. Taurarii Rua Araara 6 2012 . MPEG/X-WAV. SN1-MmTTPpTT20121111E06 at catalog.paradisec.org.au. https://dx.doi.org/10.4225/72/5709289517E74</dcterms:bibliographicCitation>
+
+==Source==
+<dc:source></dc:source>
+<dc:source xsi:type="dcterms:URI"></dc:source>
+
+==Relation==
+<dc:relation xsi:type="dcterms:IsVersionOf"></dc:relation>
+<dc:relation xsi:type="dcterms:HasVersion"></dc:relation>
+<dc:relation xsi:type="dcterms:IsReplacedBy"></dc:relation>
+<dc:relation xsi:type="dcterms:Replaces"></dc:relation>
+<dc:relation xsi:type="dcterms:IsRequiredBy"></dc:relation>
+<dc:relation xsi:type="dcterms:Requires"></dc:relation>
+<dc:relation xsi:type="dcterms:IsPartOf"></dc:relation>
+<dc:relation xsi:type="dcterms:HasPart"></dc:relation>
+<dc:relation xsi:type="dcterms:IsReferencedBy"></dc:relation>
+<dc:relation xsi:type="dcterms:References"></dc:relation>
+<dc:relation xsi:type="dcterms:IsFormatOf"></dc:relation>
+<dc:relation xsi:type="dcterms:HasFormat"></dc:relation>
+<dc:relation xsi:type="dcterms:ConformsTo"></dc:relation>
+
+<dcterms:IsVersionOf xsi:type="dcterms:URI"></dcterms:IsVersionOf>
+<dcterms:HasVersion xsi:type="dcterms:URI"></dcterms:HasVersion>
+<dcterms:IsReplacedBy xsi:type="dcterms:URI"></dcterms:IsReplacedBy>
+<dcterms:Replaces xsi:type="dcterms:URI"></dcterms:Replaces>
+<dcterms:IsRequiredBy xsi:type="dcterms:URI"></dcterms:IsRequiredBy>
+<dcterms:Requires xsi:type="dcterms:URI"></dcterms:Requires>
+<dcterms:IsPartOf xsi:type="dcterms:URI"></dcterms:IsPartOf>
+<dcterms:HasPart xsi:type="dcterms:URI"></dcterms:HasPart>
+<dcterms:IsReferencedBy xsi:type="dcterms:URI"></dcterms:IsReferencedBy>
+<dcterms:References xsi:type="dcterms:URI"></dcterms:References>
+<dcterms:IsFormatOf xsi:type="dcterms:URI"></dcterms:IsFormatOf>
+<dcterms:HasFormat xsi:type="dcterms:URI"></dcterms:HasFormat>
+<dcterms:ConformsTo xsi:type="dcterms:URI"></dcterms:ConformsTo>
+
+==Audience==
+<dcterms:Audience></dcterms:Audience>
+<dcterms:Audience xsi:type="dcterms:Mediator"></dcterms:Audience>
+<dcterms:Audience xsi:type="dcterms:EducationLevel"></dcterms:Audience>
+<dcterms:Mediator></dcterms:Mediator>
+<dcterms:EducationLevel></dcterms:EducationLevel>
+
+==Provenance==
+<dcterms:Provenance></dcterms:Provenance>
+==RightsHolder==
+<dcterms:RightsHolder></dcterms:RightsHolder>
+<dcterms:RightsHolder xsi:type="marcrel:role" marcrel:code="tch"></dcterms:RightsHolder>
+
+==AccrualPolicy==
+<dcterms:AccrualPolicy></dcterms:AccrualPolicy>
+==AccrualPeriodicity==
+<dcterms:AccrualPeriodicity></dcterms:AccrualPeriodicity>
+==AccrualMethod==
+<dcterms:AccrualMethod></dcterms:AccrualMethod>
+==InstructionalMethod==
+<dcterms:InstructionalMethod></dcterms:InstructionalMethod>
+
