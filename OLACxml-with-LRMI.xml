@@ -6,7 +6,7 @@
 
 ==Format ==
 <dc:format xsi:type="lrmi:educationalUse">Vocabulary: assessment, instruction, professional support</dc:format>
-<dc:format xsi:type="dcterms:extent" xsi:type="lrmi:timeRequired">duration</dc:format>
+<dc:format xsi:type="dcterms:extent" xsi:type="lrmi:timeRequired">Requires ISO 8601 Duration format.</dc:format>
 
 ==Subject==
 <dc:subject xsi:type="lrmi:assesses"></dc:subject>
