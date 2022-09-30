@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cov="http://purl.org/dc/terms/coverage/"
+    xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns="http://www.example.org/olac-lrmi"
+    targetNamespace="http://www.example.org/olac-lrmi" elementFormDefault="qualified"
+    attributeFormDefault="qualified">
+
+    <xs:import namespace="http://purl.org/dc/elements/1.1/"
+        schemaLocation="http://www.language-archives.org/OLAC/1.1/dc.xsd"/>
+
+    <xs:annotation>
+        <xs:appinfo>
+            <olac-extension xmlns="http://www.language-archives.org/OLAC/1.1/olac-extension.xsd">
+                <shortName>OLAC-LRMI</shortName>
+                <longName>LRMI Extenstion for OLAC</longName>
+                <versionDate>2022-09-26</versionDate>
+                <description>Provides annotations for identifying the utility of language learning
+                    resources.</description>
+                <appliesTo>coverage</appliesTo>
+                <documentation>https://github.com/HughP/Supporting-Evidence-for-OLAC-and-Learning-Resources</documentation>
+            </olac-extension>
+        </xs:appinfo>
+    </xs:annotation>
+
+    <!-- Annotations extending dc:coverage -->
+    <xs:complexType name="lrmi-coverage">
+        <xs:complexContent mixed="true">
+            <xs:extension base="dc:SimpleLiteral">
+                    <xs:attribute name="timeRequired" type="coverage-atts" use="optional"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+
+    <xs:simpleType name="coverage-atts">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    
+    
+    <!-- Annotations extending dc:type **Should be nested*** -->
+    <xs:complexType name="lrmi-type">
+        <xs:complexContent mixed="true">
+            <xs:extension base="dc:SimpleLiteral">
+                <xs:attribute name="learningResourceType" type="type-atts" use="optional"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <xs:simpleType name="type-atts">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="activity plan"/>
+            <xs:enumeration value="assessment"/>
+            <xs:enumeration value="assessment item"/>
+            <xs:enumeration value="educator curriculum guide"/>
+            <xs:enumeration value="lesson plan"/>
+            <xs:enumeration value="physical learning resource"/>
+            <xs:enumeration value="recorded lesson"/>
+            <xs:enumeration value="supporting document"/>
+            <xs:enumeration value="textbook"/>
+            <xs:enumeration value="unit plan"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!-- Annotations extending dc:subject -->
+    <xs:complexType name="lrmi-subject">
+        <xs:complexContent mixed="true">
+            <xs:extension base="dc:SimpleLiteral">
+                <xs:sequence>
+                    <xs:element name="lrmi:assesses" type="subject-atts" use="optional"/>
+                    <xs:attribute name="lrmi:teaches" type="subject-atts" use="optional"/>
+                    <xs:attribute name="lrmi:educationalSubject" type="subject-atts" use="optional"/>
+                    <xs:attribute name="lrmi:prerequisite" type="subject-atts" use="optional"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    
+    <xs:simpleType name="subject-atts">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    
+
+</xs:schema>

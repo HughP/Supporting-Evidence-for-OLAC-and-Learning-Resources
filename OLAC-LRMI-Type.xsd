@@ -16,13 +16,34 @@
                 <versionDate>2022-09-26</versionDate>
                 <description>Provides annotations for identifying the utility of language learning
                     resources.</description>
-                <!--<appliesTo>coverage</appliesTo>-->
+                <appliesTo>type</appliesTo>
                 <documentation>https://github.com/HughP/Supporting-Evidence-for-OLAC-and-Learning-Resources</documentation>
             </olac-extension>
         </xs:appinfo>
     </xs:annotation>
-
-    <!-- This should load the sub-extensions -->
     
+    <!-- Annotations extending dc:type **Should be nested*** -->
+    <xs:complexType name="lrmi-type">
+        <xs:complexContent mixed="true">
+            <xs:extension base="dc:SimpleLiteral">
+                <xs:attribute name="learningResourceType" type="type-atts" use="optional"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <xs:simpleType name="type-atts">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="activity plan"/>
+            <xs:enumeration value="assessment"/>
+            <xs:enumeration value="assessment item"/>
+            <xs:enumeration value="educator curriculum guide"/>
+            <xs:enumeration value="lesson plan"/>
+            <xs:enumeration value="physical learning resource"/>
+            <xs:enumeration value="recorded lesson"/>
+            <xs:enumeration value="supporting document"/>
+            <xs:enumeration value="textbook"/>
+            <xs:enumeration value="unit plan"/>
+        </xs:restriction>
+    </xs:simpleType>
 
 </xs:schema>

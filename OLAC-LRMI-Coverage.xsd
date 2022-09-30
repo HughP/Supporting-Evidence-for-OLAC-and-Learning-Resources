@@ -16,13 +16,24 @@
                 <versionDate>2022-09-26</versionDate>
                 <description>Provides annotations for identifying the utility of language learning
                     resources.</description>
-                <!--<appliesTo>coverage</appliesTo>-->
+                <appliesTo>coverage</appliesTo>
                 <documentation>https://github.com/HughP/Supporting-Evidence-for-OLAC-and-Learning-Resources</documentation>
             </olac-extension>
         </xs:appinfo>
     </xs:annotation>
 
-    <!-- This should load the sub-extensions -->
-    
+    <!-- Annotations extending dc:coverage -->
+    <xs:complexType name="lrmi-coverage">
+        <xs:complexContent mixed="true">
+            <xs:extension base="dc:SimpleLiteral">
+                    <xs:attribute name="timeRequired" type="coverage-atts" use="optional"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
 
+
+    <xs:simpleType name="coverage-atts">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    
 </xs:schema>
