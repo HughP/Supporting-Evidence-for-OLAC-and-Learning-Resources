@@ -26,18 +26,14 @@
     <xs:complexType name="lrmi-coverage">
         <xs:complexContent mixed="true">
             <xs:extension base="dc:SimpleLiteral">
-                <xs:attribute name="code" type="coverage-atts" use="optional"/>
+                <xs:attribute name="timeRequired" type="coverage-atts" use="optional"/>
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
 
 
     <xs:simpleType name="coverage-atts">
-        <xs:restriction base="xs:string">
-            <xs:enumeration value="timeRequired"/>
-        </xs:restriction>
+        <xs:restriction base="xs:string" />
     </xs:simpleType>
-    <!-- This adds a code field with a value of timeRequired, rather than an xsi:type of "timerequired" -->
-
 
 </xs:schema>
