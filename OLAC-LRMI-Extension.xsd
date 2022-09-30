@@ -61,7 +61,7 @@
         </xs:restriction>
     </xs:simpleType>
     
-    <!-- Annotations extending dc:coverage -->
+    <!-- Annotations extending dc:subject -->
     <xs:complexType name="lrmi-subject">
         <xs:complexContent mixed="true">
             <xs:extension base="dc:SimpleLiteral">
