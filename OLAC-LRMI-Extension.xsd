@@ -32,7 +32,6 @@
         <!-- Annotations extending dc:coverage -->
         <xs:element name="coverage-atts" type="dc:SimpleLiteral" abstract="true"/>
         <!-- dc.coverage Options -->
-        <xs:element name="typicalAgeRange" substitutionGroup="coverage-atts"/>    
         <xs:element name="timeRequired" substitutionGroup="coverage-atts"/>    
         
         <xs:complexType name="coverage">
