@@ -26,7 +26,7 @@
     <xs:complexType name="lrmi-coverage">
         <xs:complexContent mixed="true">
             <xs:extension base="dc:SimpleLiteral">
-                <xs:attribute name="timeRequired" type="coverage-atts" use="optional"/>
+                    <xs:attribute name="timeRequired" type="coverage-atts" use="optional"/>
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
@@ -35,5 +35,52 @@
     <xs:simpleType name="coverage-atts">
         <xs:restriction base="xs:string" />
     </xs:simpleType>
+    
+    
+    <!-- Annotations extending dc:type **Should be nested*** -->
+    <xs:complexType name="lrmi-type">
+        <xs:complexContent mixed="true">
+            <xs:extension base="dc:SimpleLiteral">
+                <xs:attribute name="learningResourceType" type="type-atts" use="optional"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <xs:simpleType name="type-atts">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="activity plan"/>
+            <xs:enumeration value="assessment"/>
+            <xs:enumeration value="assessment item"/>
+            <xs:enumeration value="educator curriculum guide"/>
+            <xs:enumeration value="lesson plan"/>
+            <xs:enumeration value="physical learning resource"/>
+            <xs:enumeration value="recorded lesson"/>
+            <xs:enumeration value="supporting document"/>
+            <xs:enumeration value="textbook"/>
+            <xs:enumeration value="unit plan"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!-- Annotations extending dc:coverage -->
+    <xs:complexType name="lrmi-subject">
+        <xs:complexContent mixed="true">
+            <xs:extension base="dc:SimpleLiteral">
+                <xs:sequence>
+                    <xs:any minOccurs="0" >
+                            <xs:attribute name="lrmi:assesses" type="subject-atts" use="optional"/>
+                            <xs:attribute name="lrmi:teaches" type="subject-atts" use="optional"/>
+                            <xs:attribute name="lrmi:educationalSubject" type="subject-atts" use="optional"/>
+                            <xs:attribute name="lrmi:prerequisite" type="subject-atts" use="optional"/>
+                    </xs:any>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    
+    <xs:simpleType name="subject-atts">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    
 
 </xs:schema>
