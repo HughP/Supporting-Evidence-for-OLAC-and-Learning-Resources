@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:cov="http://purl.org/dc/terms/coverage/"
+        xmlns:olac="http://www.language-archives.org/OLAC/1.1/"
+        xmlns="http://www.example.org/olac-lrmi"
+        targetNamespace="http://www.example.org/olac-lrmi"
+        elementFormDefault="qualified"
+        attributeFormDefault="qualified">
+        
+        <xs:import namespace="http://purl.org/dc/elements/1.1/"
+            schemaLocation="http://www.language-archives.org/OLAC/1.1/dc.xsd"/>
+        
+        <xs:annotation>
+            <xs:appinfo>
+                <olac-extension xmlns="http://www.language-archives.org/OLAC/1.1/olac-extension.xsd">
+                    <shortName>OLAC-LRMI</shortName>
+                    <longName>LRMI Extenstion for OLAC</longName>
+                    <versionDate>2022-09-26</versionDate>
+                    <description>Provides annotations for identifying the utility of language learning resources.</description>
+                    <appliesTo>coverage</appliesTo>
+                    <appliesTo>type</appliesTo>
+                    <appliesTo>subject</appliesTo>
+                    <appliesTo>relation</appliesTo>
+                    <documentation>https://github.com/HughP/Supporting-Evidence-for-OLAC-and-Learning-Resources</documentation>
+                </olac-extension>
+            </xs:appinfo>
+        </xs:annotation>
+        
+        
+        <!-- Annotations extending dc:coverage -->
+        <xs:element name="coverage-atts" type="dc:SimpleLiteral" abstract="true"/>
+        <!-- dc.coverage Options -->
+        <xs:element name="typicalAgeRange" substitutionGroup="coverage-atts"/>    
+        <xs:element name="timeRequired" substitutionGroup="coverage-atts"/>    
+        
+        <xs:complexType name="coverage">
+            <xs:complexContent>
+                <xs:extension base="dc:SimpleLiteral">
+                    <xs:attribute name="type" use="optional"/>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+        
+    
+</xs:schema>
