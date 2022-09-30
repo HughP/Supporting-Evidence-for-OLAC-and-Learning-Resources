@@ -1,0 +1,10 @@
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="Teacher"/>
+<xsd:enumeration value="Student"/>
+<xsd:enumeration value="Professional"/>
+<xsd:enumeration value="Peer Tutor"/>
+<xsd:enumeration value="Parent"/>
+<xsd:enumeration value="Mentor"/>
+<xsd:enumeration value="General Public"/>
+<xsd:enumeration value="Administrator"/>
+</xsd:restriction>

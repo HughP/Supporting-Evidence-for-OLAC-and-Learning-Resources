@@ -1,0 +1,12 @@
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="activity plan"/>
+<xsd:enumeration value="assessment"/>
+<xsd:enumeration value="assessment item"/>
+<xsd:enumeration value="educator curriculum guide"/>
+<xsd:enumeration value="lesson plan"/>
+<xsd:enumeration value="physical learning resource"/>
+<xsd:enumeration value="recorded lesson"/>
+<xsd:enumeration value="supporting document"/>
+<xsd:enumeration value="textbook"/>
+<xsd:enumeration value="unit plan"/>
+</xsd:restriction>

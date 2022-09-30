@@ -1,0 +1,5 @@
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="active"/>
+<xsd:enumeration value="expositive"/>
+<xsd:enumeration value="mixed"/>
+</xsd:restriction>

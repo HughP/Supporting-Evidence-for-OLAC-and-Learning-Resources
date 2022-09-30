@@ -1,0 +1,5 @@
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="assessment"/>
+<xsd:enumeration value="instruction"/>
+<xsd:enumeration value="professional support"/> 
+</xsd:restriction>
