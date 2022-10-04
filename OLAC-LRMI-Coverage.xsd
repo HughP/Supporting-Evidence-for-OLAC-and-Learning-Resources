@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cov="http://purl.org/dc/terms/coverage/"
-    xmlns:olac="http://www.language-archives.org/OLAC/1.1/" xmlns="http://www.example.org/olac-lrmi"
-    targetNamespace="http://www.example.org/olac-lrmi" elementFormDefault="qualified"
+    xmlns:olac="http://www.language-archives.org/OLAC/1.1/" 
+    xmlns="http://www.example.org/lrmi-coverage"
+    targetNamespace="http://www.example.org/lrmi-coverage" elementFormDefault="qualified"
     attributeFormDefault="qualified">
 
+    <xs:include schemaLocation="http://www.language-archives.org/OLAC/1.1/olac-extension.xsd"/>
     <xs:import namespace="http://purl.org/dc/elements/1.1/"
         schemaLocation="http://www.language-archives.org/OLAC/1.1/dc.xsd"/>
 
     <xs:annotation>
         <xs:appinfo>
             <olac-extension xmlns="http://www.language-archives.org/OLAC/1.1/olac-extension.xsd">
-                <shortName>OLAC-LRMI</shortName>
-                <longName>LRMI Extenstion for OLAC</longName>
+                <shortName>coverage</shortName>
+                <longName>LRMI Extenstion for OLAC Coverage</longName>
                 <versionDate>2022-09-26</versionDate>
                 <description>Provides annotations for identifying the utility of language learning
                     resources.</description>
@@ -26,14 +28,9 @@
     <xs:complexType name="lrmi-coverage">
         <xs:complexContent mixed="true">
             <xs:extension base="dc:SimpleLiteral">
-                    <xs:attribute name="timeRequired" type="coverage-atts" use="optional"/>
+                    <xs:attribute name="timeRequired" type="xs:duration" use="optional"/>
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
-
-
-    <xs:simpleType name="coverage-atts">
-        <xs:restriction base="xs:string" />
-    </xs:simpleType>
     
 </xs:schema>
