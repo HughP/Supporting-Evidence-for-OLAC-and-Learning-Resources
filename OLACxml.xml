@@ -28,7 +28,7 @@
 ==Coverage==
 <dc:coverage>United States durring the civilwar</dc:coverage>
 
-<dcterms: spatial>Mars (Planet)</dcterms: spatial>
+<dcterms:spatial>Mars (Planet)</dcterms: spatial>
 <dcterms:temporal>19th century</dcterms:temporal>
 <dc:coverage xsi:type="dcterms:spatial">Mars (Planet)</dc:coverage>
 <dc:coverage xsi:type="dcterms:temporal">19th century</dc:coverage>
